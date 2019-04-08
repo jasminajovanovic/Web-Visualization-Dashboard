@@ -1,0 +1,71 @@
+body {
+  background: #f1f1f1;
+}
+
+h2 {
+  /* text-align: center; */
+  font-weight: bold;
+  background-color: white;
+  color: #0BADA6;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+  color: #0BADA6;
+}
+
+p {
+  font-weight: normal;
+  text-align: justify;
+  font
+}
+
+.box {
+  min-height: 50px;
+  padding: 30px;
+  margin: 30px;
+  /* font-weight: 800; */
+}
+
+.white {
+  background-color: white;
+}
+
+.navbar {
+  height: 50px;
+  position: relative;
+  z-index: 10000;
+}
+
+.navbar-brand {
+  background-color: #0BADA6;
+  color: white;
+  font-weight: bold;
+  margin-left: 5%;
+  height: 150%;
+  padding: 10px 10px;
+}
+
+#navbarSupportedContent {
+  text-align: right;
+  padding-left: 50%;
+  /* margin-left: 280%; */
+}
+
+.dropdown-toggle~li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* #box2{
+  margin-left:60px;
+  margin-right: 60px;
+
+} */
+.centered {
+  text-align: center;
+  /* align-items: center; */
+}
+
+.table {}
