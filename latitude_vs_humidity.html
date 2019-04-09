@@ -12,15 +12,13 @@
 
 
   <nav class="navbar navbar-expand-lg bg-light">
-    <!-- <div class="row"> -->
-    <!-- <div class="col-xs-6"> -->
     <a class="navbar-brand" href="index.html">Lattitude</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
+    <div class="navbar-expand ml-auto" id="navbarSupportedContent">
+      <ul class="navbar-nav">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Plots
@@ -32,21 +30,20 @@
             <a class="dropdown-item" href="latitude_vs_cloudiness.html">Cloudiness vs Latitude</a>
           </div>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="data.html">Data</a>
         </li>
       </ul>
     </div>
-    <!-- </div> -->
-    <!-- </div> -->
   </nav>
 
+
   <div class="row">
-    <div class="col-xs-12 col-md-8">
-      <div class="box white div  mr-auto">
+    <div class="col-xs-12 col-lg-7">
+      <div class="box white div centered">
         <h2>Humidity</h2>
         <hr>
         <br>
@@ -58,36 +55,22 @@
       </div>
     </div>
 
-    <div class="col-xs-12 col-md-4">
-      <div class="box white div centered ml-auto">
+    <div class="col-xs-12 col-lg-5">
+      <div class="box white div centered">
         <h2>Visualizations</h2>
         <hr>
         <br>
 
-        <div class="row">
-          <div class="col-sm-3 col-md-6">
-            <a href="latitude_vs_maxtemp.html"><img src="Images/temp.png" alt="Max Temp vs Altitude" style="width:100%;height:100%;"> </a>
-            <!-- <img src="Images/humidity.png" alt="humidity vs latitude" style="width:100%;height:100%;"> -->
-          </div>
-          <div class="col-sm-3 col-md-6">
-            <a href="latitude_vs_humidity.html"><img src="Images/humidity.png" alt="Humidity vs Altitude" style="width:100%;height:100%;"> </a>
-
-            <!-- <img src="Images/temp.png" alt="temp vs latitude" style="width:100%;height:100%;"> -->
-          </div>
-          <div class="col-sm-3 col-md-6">
-            <a href="latitude_vs_cloudiness.html"><img src="Images/cloudiness.png" alt="Cloudiness vs Altitude" style="width:100%;height:100%;"> </a>
-
-            <!-- <img src="Images/wind.png" alt="wind vs latitude" style="width:100%;height:100%;"> -->
-          </div>
-          <div class="col-sm-3 col-md-6">
-            <a href="latitude_vs_wind.html"><img src="Images/wind.png" alt="Wind vs Altitude" style="width:100%;height:100%;"> </a>
-
-            <!-- <img src="Images/cloudiness.png" alt="cloudiness vs latitude" style="width:100%;height:100%;"> -->
+        <div class="row centered">
+          <div>
+            <a href="latitude_vs_maxtemp.html"><img src=" Images/temp.png" alt="Max Temp vs Altitude" class="myimage"> </a>
+            <a href="latitude_vs_humidity.html"><img src="Images/humidity.png" alt="Humidity vs Altitude" class="myimage"> </a>
+            <a href="latitude_vs_cloudiness.html"><img src="Images/cloudiness.png" alt="Cloudiness vs Altitude" class="myimage"> </a>
+            <a href="latitude_vs_wind.html"><img src="Images/wind.png" alt="Wind vs Altitude" class="myimage"> </a>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

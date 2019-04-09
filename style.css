@@ -22,6 +22,14 @@ p {
   font
 }
 
+a:hover {
+    color: inherit;
+}
+
+.bg-light{
+  color: white;
+}
+
 .box {
   min-height: 50px;
   padding: 30px;
@@ -39,19 +47,20 @@ p {
   z-index: 10000;
 }
 
-.navbar-brand {
+.navbar-brand  {
   background-color: #0BADA6;
   color: white;
   font-weight: bold;
   margin-left: 2%;
   height: 150%;
   padding: 10px 10px;
+  /* float: left !important; */
 }
 
 #navbarSupportedContent {
   text-align: right;
-  padding-left: 50%;
-  /* margin-left: 280%; */
+  color: blue;
+  /* padding-left: 60%; */
 }
 
 .dropdown-toggle a:hover {
@@ -63,19 +72,33 @@ p {
   width: 140px;
 }
 
-.myimage:active {
+.myimage:active, .myimage:focus, .myimage:hover {
   border: 2px solid red;
 }
-/* #box2{
-  margin-left:60px;
-  margin-right: 60px;
 
-} */
 .centered {
   text-align: center;
-  /* align-items: center; */
 }
 
-.navbar-nav > li > a:active {
-  background-color: grey !important;
+.navbar-nav>li>a:active {
+  background-color: #e3e3e3b3 !important;
+}
+
+.navbar-nav>li>a:focus {
+  background-color: #e3e3e3b3 !important;
+}
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
 }
