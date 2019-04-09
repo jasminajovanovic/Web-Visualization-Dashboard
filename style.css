@@ -37,7 +37,7 @@ a:hover {
   min-height: 50px;
   padding: 30px;
   margin: 30px;
-  /* font-weight: 800; */
+  font-weight: 800;
 }
 
 .white {
@@ -57,7 +57,7 @@ a:hover {
   margin-left: 2%;
   height: 150%;
   padding: 10px 10px;
-  /* float: left !important; */
+  float: left !important;
 }
 
 #navbarSupportedContent {
@@ -107,8 +107,9 @@ a:hover {
 }
 
 @media (max-width: 960px) {
-  .body {
-    font-size: 300%;
+  .p {
+    /* font-size: 1.5rem; */
+    background-color: purple;
   }
 }
 
