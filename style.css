@@ -1,5 +1,6 @@
 body {
   background: #f1f1f1;
+  font-size: 120%;
 }
 
 h2 {
@@ -7,6 +8,7 @@ h2 {
   font-weight: bold;
   background-color: white;
   color: #0BADA6;
+  /* font-size: 120%; */
 }
 
 h4 {
@@ -14,12 +16,13 @@ h4 {
   font-weight: bold;
   background-color: white;
   color: #0BADA6;
+  /* font-size: 120%; */
 }
 
 p {
   font-weight: normal;
   text-align: justify;
-  font
+  /* font-size: 150%; */
 }
 
 a:hover {
