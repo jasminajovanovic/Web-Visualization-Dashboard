@@ -34,7 +34,7 @@ p {
 }
 
 .navbar {
-  height: 50px;
+  /* height: 50%; */
   position: relative;
   z-index: 10000;
 }
@@ -43,7 +43,7 @@ p {
   background-color: #0BADA6;
   color: white;
   font-weight: bold;
-  margin-left: 5%;
+  margin-left: 2%;
   height: 150%;
   padding: 10px 10px;
 }
@@ -54,10 +54,18 @@ p {
   /* margin-left: 280%; */
 }
 
-.dropdown-toggle~li a:hover {
+.dropdown-toggle a:hover {
   background-color: #f1f1f1;
 }
 
+.myimage{
+  heigh: 140px;
+  width: 140px;
+}
+
+.myimage:active {
+  border: 2px solid red;
+}
 /* #box2{
   margin-left:60px;
   margin-right: 60px;
@@ -68,4 +76,6 @@ p {
   /* align-items: center; */
 }
 
-.table {}
+.navbar-nav > li > a:active {
+  background-color: grey !important;
+}

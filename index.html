@@ -10,6 +10,13 @@
 
 <body>
 
+  <!--TODO: grey out Plot bar when selected
+show which images on the right is selected from Visualizations box
+figure out why navabar on the right collapses and either:
+  make it not collapse, or
+  make menu lines visible once collapsed
+
+975x 625-->
 
   <nav class="navbar navbar-expand-lg bg-light">
     <!-- <div class="row"> -->
@@ -32,10 +39,10 @@
             <a class="dropdown-item" href="latitude_vs_cloudiness.html">Cloudiness vs Latitude</a>
           </div>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="data.html">Data</a>
         </li>
       </ul>
@@ -70,25 +77,31 @@
         <br>
 
         <div class="row">
-          <div class="col-sm-3 col-md-6">
-            <a href="latitude_vs_maxtemp.html"><img src="Images/temp.png" alt="Max Temp vs Altitude" style="width:100%;height:100%;"> </a>
-            <!-- <img src="Images/humidity.png" alt="humidity vs latitude" style="width:100%;height:100%;"> -->
-          </div>
-          <div class="col-sm-3 col-md-6">
-            <a href="latitude_vs_humidity.html"><img src="Images/humidity.png" alt="Humidity vs Altitude" style="width:100%;height:100%;"> </a>
+          <!-- <div class="col-sm-3 col-md-6"> -->
+          <!-- <img src="Images/humidity.png" alt="humidity vs latitude" style="width:100%;height:100%;"> -->
+          <!-- </div> -->
+          <div>
+            <!-- <a href="latitude_vs_maxtemp.html"><img src="Images/temp.png" alt="Max Temp vs Altitude" style="width:100%;height:100%;"> </a> -->
+            <a href="#"><img src=" Images/temp.png" alt="Max Temp vs Altitude" class="myimage"> </a>
+            <a href="latitude_vs_humidity.html"><img src="Images/humidity.png" alt="Humidity vs Altitude" class="myimage"> </a>
 
-            <!-- <img src="Images/temp.png" alt="temp vs latitude" style="width:100%;height:100%;"> -->
-          </div>
-          <div class="col-sm-3 col-md-6">
-            <a href="latitude_vs_cloudiness.html"><img src="Images/cloudiness.png" alt="Cloudiness vs Altitude" style="width:100%;height:100%;"> </a>
+            <!-- <a href="latitude_vs_humidity.html"><img src="Images/humidity.png" alt="Humidity vs Altitude" style="width:100%;height:100%;"> </a> -->
+            <a href="latitude_vs_cloudiness.html"><img src="Images/cloudiness.png" alt="Cloudiness vs Altitude" class="myimage"> </a>
+            <a href="latitude_vs_wind.html"><img src="Images/wind.png" alt="Wind vs Altitude" class="myimage"> </a>
 
-            <!-- <img src="Images/wind.png" alt="wind vs latitude" style="width:100%;height:100%;"> -->
           </div>
-          <div class="col-sm-3 col-md-6">
-            <a href="latitude_vs_wind.html"><img src="Images/wind.png" alt="Wind vs Altitude" style="width:100%;height:100%;"> </a>
+          <!-- <div class="col-sm-3 col-md-6"> -->
 
-            <!-- <img src="Images/cloudiness.png" alt="cloudiness vs latitude" style="width:100%;height:100%;"> -->
-          </div>
+          <!-- <img src="Images/temp.png" alt="temp vs latitude" style="width:100%;height:100%;"> -->
+          <!-- </div> -->
+          <!-- <div class="col-sm-3 col-md-6"> -->
+
+          <!-- <img src="Images/wind.png" alt="wind vs latitude" style="width:100%;height:100%;"> -->
+          <!-- </div>
+          <div class="col-sm-3 col-md-6"> -->
+
+          <!-- <img src="Images/cloudiness.png" alt="cloudiness vs latitude" style="width:100%;height:100%;"> -->
+          <!-- </div> -->
         </div>
       </div>
     </div>
