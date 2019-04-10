@@ -1,13 +1,24 @@
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
+
 body {
   background: #f1f1f1;
   font-size: 120%;
 }
+
 
 h2 {
   /* text-align: center; */
   font-weight: bold;
   background-color: white;
   color: #0BADA6;
+  text-align: left;
   /* font-size: 120%; */
 }
 
@@ -37,7 +48,7 @@ a:hover {
   min-height: 50px;
   padding: 30px;
   margin: 30px;
-  font-weight: 800;
+  /* font-weight: 800; */
 }
 
 .white {
@@ -71,8 +82,8 @@ a:hover {
 }
 
 .myimage{
-  heigh: 140px;
-  width: 140px;
+  heigh: 150px;
+  width: 150px;
 }
 
 .myimage:active, .myimage:focus, .myimage:hover {
@@ -106,12 +117,6 @@ a:hover {
   float: right!important;
 }
 
-@media (max-width: 960px) {
-  .p {
-    /* font-size: 1.5rem; */
-    background-color: purple;
-  }
-}
 
 .table{
   font-size: 75%;
