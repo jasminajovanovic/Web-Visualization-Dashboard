@@ -1,15 +1,15 @@
-@media (max-width: @screen-xs) {
-    body{font-size: 10px;}
+/* @media (max-width: @screen-xs) {
+    body{font-size: 10px !important;}
 }
 
 @media (max-width: @screen-sm) {
-    body{font-size: 14px;}
-}
+    body{font-size: 24px !important;}
+} */
 
 
 body {
   background: #f1f1f1;
-  font-size: 120%;
+  font-size: 1.2rem;
 }
 
 
@@ -19,7 +19,6 @@ h2 {
   background-color: white;
   color: #0BADA6;
   text-align: left;
-  /* font-size: 120%; */
 }
 
 h4 {
@@ -27,13 +26,11 @@ h4 {
   font-weight: bold;
   background-color: white;
   color: #0BADA6;
-  /* font-size: 120%; */
 }
 
 p {
   font-weight: normal;
   text-align: justify;
-  /* font-size: 150%; */
 }
 
 a:hover {
@@ -48,7 +45,6 @@ a:hover {
   min-height: 50px;
   padding: 30px;
   margin: 30px;
-  /* font-weight: 800; */
 }
 
 .white {
@@ -56,7 +52,6 @@ a:hover {
 }
 
 .navbar {
-  /* height: 50%; */
   position: relative;
   z-index: 10000;
 }
@@ -74,7 +69,6 @@ a:hover {
 #navbarSupportedContent {
   text-align: right;
   color: blue;
-  /* padding-left: 60%; */
 }
 
 .dropdown-toggle a:hover {
@@ -119,5 +113,5 @@ a:hover {
 
 
 .table{
-  font-size: 75%;
+  font-size: 0.8rem;
 }
