@@ -3,7 +3,9 @@
     and (device-width : 414px)
     and (device-height : 896px)
     and (-webkit-device-pixel-ratio : 2) {
-    font-size: 2rem;
+    body {
+      font-size: 1.5rem;
+    }
   }
 
 
